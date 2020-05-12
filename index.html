@@ -3,7 +3,7 @@
 <script>
 function load(){
 	d1 = new Date();
-	d2 = new Date(2020,8,16)
+	d2 = new Date(2022,8,16)
 	nachten = Math.round((d2.getTime() - d1.getTime()) / (3600000 * 24)+0.5)
 	document.getElementById("yeah").innerHTML = 'Nog maar <b>'+nachten+'</b> nachten slapen tot de studiereis.<br>Vertrek om: '+d2.toString();
 }
